@@ -34,5 +34,3 @@ def recommendTea(input_string):
     res = print('Les thés recommandés pour vous sont : \n{}'.format(resultat))
     return  res
 	
-ceylan = 'Ceylan New Vithanakande'
-recommendTea(ceylan)
