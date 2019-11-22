@@ -1,4 +1,7 @@
-﻿import pandas as pd
+﻿# Ce script est la fonction permettant de recommander un thé similaire à celui en input.
+# Il se base sur la distance euclidienne pour propose 3 thés de la même variété et 2 thés d'une autre
+
+import pandas as pd
 import numpy as np
 import scipy.spatial
 
