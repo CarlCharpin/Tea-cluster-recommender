@@ -2,19 +2,25 @@
 This personal project is a jupyter notebook file designed to web scrape data concerning tea leaves from my favorite shop.
 It also includes data cleaning, clusterization via *scikit-learn* and a recommender to suggest similar teas based on the aroma profile.
 
+![Recommender example GIF](https://github.com/CarlCharpin/Tea-cluster-recommender/blob/master/images/example.gif)
+
 # Description
 
 With this project, my aim was to get better at manipulating dataframes (*pandas*) and machine learning with *scikit-learn*. 
 I figured real data was the best way to learn as it involves a lot of cleanup.
 I started by scraping data about teas from a web shop using *BeautifulSoup4*. 
 
-With this project, my aim was to get better at manipulating dataframes (*pandas*) and machine learning with *scikit-learn*. 
-I figured real data was the best way to learn as it involves a lot of cleanup.
-I started by scraping data about teas from a web shop using *BeautifulSoup4*. 
 
 Once I gathered all the data I needed I used the dataframe for exploration and cleanup before moving on to
 the clusterization with the kmeans algorithm. 
 Another round of exploration allowed me to validate the model by checking how the teas were grouped.
+The following images shows the resulting clusterization.
+First the distribution of varieties of teas by cluster.
+![Variety distribution by cluster](https://github.com/CarlCharpin/Tea-cluster-recommender/blob/master/images/groupedTea.png)
+
+Also the distribution of aromas by cluster (presents the mean of every flavor by cluster)
+![Aroma distribution](https://github.com/CarlCharpin/Tea-cluster-recommender/blob/master/images/distributionAromas.png)
+
 Finally I programmed a recommender taking a tea from a list in input from the user and showing the most similar teas.
 	
 # Getting Started
