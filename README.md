@@ -4,16 +4,14 @@ It also includes data cleaning, clusterization via *scikit-learn* and a recommen
 
 # Description
 
-<<<<<<< HEAD
-	With this project, my aim was to get better at manipulating dataframes (*pandas*) and machine learning with *scikit-learn*. 
-	I figured real data was the best way to learn as it involves a lot of cleanup.
-I started by scraping data about teas from a web shop using *BeautifulSoup4*. 
-=======
 With this project, my aim was to get better at manipulating dataframes (*pandas*) and machine learning with *scikit-learn*. 
 I figured real data was the best way to learn as it involves a lot of cleanup.
 I started by scraping data about teas from a web shop using *BeautifulSoup4*. 
 
->>>>>>> 7da34544bef3e97db30a29ba3269452c9d19cf19
+With this project, my aim was to get better at manipulating dataframes (*pandas*) and machine learning with *scikit-learn*. 
+I figured real data was the best way to learn as it involves a lot of cleanup.
+I started by scraping data about teas from a web shop using *BeautifulSoup4*. 
+
 Once I gathered all the data I needed I used the dataframe for exploration and cleanup before moving on to
 the clusterization with the kmeans algorithm. 
 Another round of exploration allowed me to validate the model by checking how the teas were grouped.
@@ -34,14 +32,13 @@ In this projet I used the following libraries:
 	- sklearn (sklearn.cluster)
 	
 ## Executing program
-<<<<<<< HEAD
-	You can either run the notebook in the root folder or use the scripts in the scripts + data folder.
-	The notebook will start from scratch and scrape the data from the website. 
-	If you only want to get recommended teas, you can run the script *recommender.py*.
-=======
+
+You can either run the notebook in the root folder or use the scripts in the scripts + data folder.
+The notebook will start from scratch and scrape the data from the website. 
+If you only want to get recommended teas, you can run the script *recommender.py*.
+
 You can either run the notebook in the root folder or use the scripts in the scripts + data folder.
 The notebook will start from scratch and scrape the data from the website. If you only want to get recommended teas, you can run the script *recommender.py*.
->>>>>>> 7da34544bef3e97db30a29ba3269452c9d19cf19
 	
 # Author
 My name is Carl Charpin. I'm a physicist working towards a data scientist job.
