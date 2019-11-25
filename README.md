@@ -34,7 +34,7 @@ My name is Carl Charpin. I'm a physicist working towards a data scientist job.
 	
 # Acknowledgements
 This project was inspired from the classification of whiskies you can find here.
-![Classification of whiskies](https://blog.revolutionanalytics.com/2013/12/k-means-clustering-86-single-malt-scotch-whiskies.html)
+[Classification of whiskies](https://blog.revolutionanalytics.com/2013/12/k-means-clustering-86-single-malt-scotch-whiskies.html)
 
 
 
