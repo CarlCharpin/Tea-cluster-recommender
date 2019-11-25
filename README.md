@@ -15,6 +15,7 @@ Once I gathered all the data I needed I used the dataframe for exploration and c
 the clusterization with the kmeans algorithm. 
 Another round of exploration allowed me to validate the model by checking how the teas were grouped.
 The following images shows the resulting clusterization.
+
 First the distribution of varieties of teas by cluster.
 ![Variety distribution by cluster](https://github.com/CarlCharpin/Tea-cluster-recommender/blob/master/images/groupedTea.png)
 
@@ -28,14 +29,14 @@ Finally I programmed a recommender taking a tea from a list in input from the us
 All this project was done with Python 3.7. Most of the project was done in jupyter notebooks then refactored in .py scripts.
 ## Dependencies
 In this projet I used the following libraries:
-	- BeautifulSoup4
-	- numpy
-	- scipy
-	- numpy 
-	- pandas
-	- matplotlib
-	- seaborn
-	- sklearn (sklearn.cluster)
+	* BeautifulSoup4
+	* numpy
+	* scipy
+	* numpy 
+	* pandas
+	* matplotlib
+	* seaborn
+	* sklearn (sklearn.cluster)
 	
 ## Executing program
 
@@ -43,9 +44,7 @@ You can either run the notebook in the root folder or use the scripts in the scr
 The notebook will start from scratch and scrape the data from the website. 
 If you only want to get recommended teas, you can run the script *recommender.py*.
 
-You can either run the notebook in the root folder or use the scripts in the scripts + data folder.
-The notebook will start from scratch and scrape the data from the website. If you only want to get recommended teas, you can run the script *recommender.py*.
-	
+
 # Author
 My name is Carl Charpin. I'm a physicist working towards a data scientist job.
 	
