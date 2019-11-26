@@ -6,11 +6,14 @@ It also includes data cleaning, clusterization via *scikit-learn* and a recommen
 
 # Description
 
-With this project, my aim was to get better at manipulating dataframes (*pandas*) and machine learning with *scikit-learn*. 
+With this personal project, my aim was to get better at manipulating dataframes (*pandas*) and machine learning with *scikit-learn*. 
 I figured real data was the best way to learn as it involves a lot of cleanup.
+I also wanted to create someone that would be useful to me and maybe to others people as well, that's why I decided to 
+build a recommender system for teas. With the diversity  available now, teas are more and more similar to wines or spirits, and it becomes harder to find new
+products organically.
+
+
 I started by scraping data about teas from a web shop using *BeautifulSoup4*. 
-
-
 Once I gathered all the data I needed I used the dataframe for exploration and cleanup before moving on to
 the clusterization with the kmeans algorithm. 
 Another round of exploration allowed me to validate the model by checking how the teas were grouped.
