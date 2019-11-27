@@ -32,14 +32,15 @@ Finally I programmed a recommender taking a tea from a list in input from the us
 All this project was done with Python 3.7. Most of the project was done in jupyter notebooks then refactored in .py scripts.
 ## Dependencies
 In this projet I used the following libraries:
-	* BeautifulSoup4
-	* numpy
-	* scipy
-	* numpy 
-	* pandas
-	* matplotlib
-	* seaborn
-	* sklearn (sklearn.cluster)
+
+* BeautifulSoup4
+* numpy
+* scipy
+* numpy 
+* pandas
+* matplotlib
+* seaborn
+* sklearn (sklearn.cluster)
 	
 ## Executing program
 
